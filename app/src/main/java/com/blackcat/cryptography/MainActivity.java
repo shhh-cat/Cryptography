@@ -30,6 +30,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -242,6 +243,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 typeString, new FormFragment.Action() {
                                     @Override
                                     public String onChange(String input) {
+                                        input = input.toUpperCase(Locale.ROOT);
                                         return type == ENCRYPT ? vigenereCipher.setKey(VigenereCipher.generateKey(input,keyValue)).encrypt(input) : vigenereCipher.setKey(VigenereCipher.generateKey(input,keyValue)).decrypt(input);
                                     }
                                 });
