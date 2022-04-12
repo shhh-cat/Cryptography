@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ceasar"
+        android:icon="@drawable/ic_star"
+        android:title="@string/ceasar" />
+
+    <item
+        android:id="@+id/navigation_ma_hoan_vi"
+        android:icon="@drawable/ic_star"
+        android:title="@string/ma_hoan_vi" />
+
+    <item
+        android:id="@+id/navigation_affine"
+        android:icon="@drawable/ic_star"
+        android:title="@string/affineCipher" />
+
+    <item
+        android:id="@+id/navigation_vigenere"
+        android:icon="@drawable/ic_star"
+        android:title="@string/vigenereCipher" />
+
+    <item
+        android:id="@+id/navigation_hill"
+        android:icon="@drawable/ic_star"
+        android:title="@string/hillCipher" />
+
+</menu>

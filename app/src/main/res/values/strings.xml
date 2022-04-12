@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cryptography</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ceasar">Ceasar</string>
+    <string name="ma_hoan_vi">Mã hoán vị</string>
+    <string name="affineCipher">Affine</string>
+    <string name="vigenereCipher">Vigenere</string>
+    <string name="hillCipher">Hill</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plaintext">Bản rõ</string>
+    <string name="ciphertext">Bản mã</string>
+    <string name="key">Khóa</string>
+    <string name="type_k">Nhập k</string>
+    <string name="encrypt">Mã hóa</string>
+    <string name="decrypt">Giải mã</string>
+    <string name="set_key_input">Nhập k</string>
+    <string name="set_key_file">Từ file</string>
+    <string name="input">Đầu vào</string>
+</resources>
